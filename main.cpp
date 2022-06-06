@@ -4,6 +4,7 @@
 #include"Population.h"
 #include"StatisticFile.h"
 #define _CRT_SECURE_NO_WARNINGS
+#define NOMINMAX
 using namespace std;
 
 int main(int argc, char*argv[]) {
