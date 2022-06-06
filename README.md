@@ -8,3 +8,5 @@ To apply the source code, you should:
       g++ main.cpp -o SLGP-ERC -std=c++11 -O3
       
 4) SLGP-ERC.sh is an exmple Shell script for running the executable file SLGP-ERC.exe (SLGP-ERC.out for Linux).
+
+On Window System, Visual Studio, you may need to set some PreProcessor parameters:  Project setting ——>C/C++——>Category——>PreProcessor——>PreProcessor Definitions: add "_CRT_SECURE_NO_WARNINGS" and "NOMINMAX"
